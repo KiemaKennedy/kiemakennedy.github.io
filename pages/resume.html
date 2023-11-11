@@ -9,8 +9,8 @@
 <body>
     <h1>Choose Role Field</h1>
     <select id="selectOption">
-        <option value="'../assets/resume/sample.pdf'">Information Management</option>
-        <option value="assets/resume/sample2.pdf">Product Management</option>
+        <option value="../assets/resume/sample.pdf">Information Management</option>
+        <option value="../assets/resume/sample2.pdf">Product Management</option>
         <option value="option3">Database Administration</option>
         <option value="option4">Systems Administrator</option>
         <option value="option4">GIS Solutions Architect/Engineer</option>
@@ -25,6 +25,9 @@
     var selectedOption = this.value;
     if (selectedOption) {
     window.open(selectedOption, '_blank');
- }
+    }
+    else {
+        window.open("../assets/resume/sample.pdf", '_blank');
+    }
 });
 </script>
