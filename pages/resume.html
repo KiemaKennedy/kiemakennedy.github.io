@@ -15,22 +15,75 @@
 </head>
 
 <body>
-    <div class="container">
-        <p><span class="teal">Which field are you hiring?</span></p>
+    <div class="container" style="justify-content: center;">
+        <p><span class="teal-text"><b>Which field are you hiring? 
+          Click to view resume</b></span></p>
         <ul class="list-group">
             <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="firstCheckbox">
-              <label class="form-check-label" for="firstCheckbox">First checkbox</label>
+              <a href="../assets/resume/sample.pdf" target="_blank" style="text-decoration: none;" class="hoverline" >Information Management</a>              
             </li>
             <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="secondCheckbox">
-              <label class="form-check-label" for="secondCheckbox">Second checkbox</label>
+              <a href="../assets/resume/sample.pdf" target="_blank" style="text-decoration: none;" class="hoverline">Product Management</a>
             </li>
             <li class="list-group-item">
-              <input class="form-check-input me-1" type="checkbox" value="" id="thirdCheckbox">
-              <label class="form-check-label" for="thirdCheckbox">Third checkbox</label>
+              <a href="../assets/resume/sample.pdf" target="_blank" style="text-decoration: none;" class="hoverline" >Database Administrator</a>             
+            </li>
+            <li class="list-group-item">
+              <a href="../assets/resume/sample.pdf" target="_blank" style="text-decoration: none;" class="hoverline">Systems Administrator</a>
+            </li>
+            <li class="list-group-item">
+              <a href="../assets/resume/sample2.pdf" target="_blank" style="text-decoration: none;" class="hoverline">Solutions Engineer</a></button>
+
+            </li>
+            <li class="list-group-item">
+              <a href="../assets/resume/sample.pdf" target="_blank" style="text-decoration: none;" class="hoverline">GIS Specialist</a></button>
             </li>
           </ul>
     </div>
+    <script>
+      document.getElementById('firstCheckbox').addEventListener('change', function() {
+        if (this.checked) {
+            var fileName = document.getElementById('firstButton').innerHTML;
+            window.open(fileName, '_blank');
+        }
+      });
+    
+      document.getElementById('firstCheckbox').addEventListener('change', function() {
+        if (this.checked) {
+            var fileName = document.getElementById('firstButton').innerHTML;
+            window.open(fileName, '_blank');
+        }
+      });
+    
+      document.getElementById('firstCheckbox').addEventListener('change', function() {
+        if (this.checked) {
+            var fileName = document.getElementById('firstButton').innerHTML;
+            window.open(fileName, '_blank');
+        }
+      });
+    
+    document.getElementById('firstCheckbox').addEventListener('change', function() {
+      if (this.checked) {
+          var fileName = document.getElementById('firstButton').innerHTML;
+          window.open(fileName, '_blank');
+      }
+    });
+    
+      document.getElementById('firstCheckbox').addEventListener('change', function() {
+        if (this.checked) {
+            var fileName = document.getElementById('firstButton').innerHTML;
+            window.open(fileName, '_blank');
+        }
+      });
+      document.getElementById('firstCheckbox').addEventListener('change', function() {
+        if (this.checked) {
+            var fileName = document.getElementById('firstButton').innerHTML;
+            window.open(fileName, '_blank');
+        }
+      });
+    
+    
+    </script>
 </body>
 </html>
+
