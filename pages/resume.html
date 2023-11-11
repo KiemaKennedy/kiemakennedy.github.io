@@ -3,31 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/materialize/0.95.3/css/materialize.min.css" />
+    <!-- Font Awesome Icon - CSS-->
+    <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" />
+    <!-- Custom Styles-->
+    <link rel="stylesheet" href="/assets/css/style.css" />
     <title>Resume Selector</title>
 </head>
 
 <body>
-    <h1>Choose Role Field</h1>
-    <select id="selectOption">
-        <option value="../assets/resume/sample.pdf">Information Management</option>
-        <option value="../assets/resume/sample2.pdf">Product Management</option>
-        <option value="option3">Database Administration</option>
-        <option value="option4">Systems Administrator</option>
-        <option value="option4">GIS Solutions Architect/Engineer</option>
-        <option value="option4">GIS Analyst/Manager</option>
-    </select>
+    <h1><span class="teal">Role Field</span></h1>
+    <ul id="selectOption">     
+        <li><a href="../assets/resume/sample2.pdf" target="_blank"> <span class="teal hoverline">Information Management</span> </a></li>
+        <li><a href="../assets/resume/sample2.pdf" target="_blank"> <span class="teal hoverline"> Product Management</span> </a></li>
+        <li><a href="../assets/resume/sample2.pdf" target="_blank"> <span class="teal hoverline"> Systems Administration</span> </a></li>
+        <li><a href="../assets/resume/sample2.pdf" target="_blank"> <span class="teal hoverline"> Solutions Architect/Engineer</span> </a></li>
+        <li><a href="../assets/resume/sample2.pdf" target="_blank"> <span class="teal hoverline"> GIS Analyst/Manager</span> </a></li>
+    </ul>
 </body>
 </html>
-
-
-<script>
-    document.getElementById('selectOption').addEventListener('change', function() {
-    var selectedOption = this.value;
-    if (selectedOption) {
-    window.open(selectedOption, '_blank');
-    }
-    else {
-        window.open("../assets/resume/sample.pdf", '_blank');
-    }
-});
-</script>
