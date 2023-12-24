@@ -309,7 +309,7 @@ h3 {
 }
 
 .full-height {
-  height: 100vh;
+  height: 70vh;
 }
 
 /* Original */
@@ -590,6 +590,7 @@ small {
   main {
     padding-left: 0px;
     padding-top: 64px;
+    
   }
   ul.side-nav a {
     line-height: 100%;
@@ -691,4 +692,6 @@ small {
   #intro.section {
     background-position-x: 30%;
   }
+
+  
 }
